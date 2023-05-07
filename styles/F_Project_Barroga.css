@@ -1,0 +1,108 @@
+body{
+	font-family: Questrial;
+	font-size: 20px;
+	color: #E9E4DA;
+}
+p{
+	text-align: justify;
+	line-height: 2;
+}
+
+/*INDEX*/
+.nav {
+  overflow: hidden;
+  background-color: #E9E4DA;
+  text-align: center;
+}
+
+.nav a{
+  float: left;
+  color: #323637;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.nav a:hover{
+  background-color: #B7B7B7;
+  color: black;
+}
+
+.nav a.selected{
+	background: #04AA6D;
+	color: white;
+}
+
+/*REGISTRATION*/
+fieldset{
+  float: center;
+  width: 300px;
+  margin: auto;
+}
+
+.form-hidden {
+	display: none;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.thank {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.show-message .thank {
+    display: block;
+}
+
+.show-message .image-container {
+    justify-content: center;
+}
+			
+/*GALLERY*/
+.cli1,.cli2,.cli3,.cli4{
+	flex-basis: calc(10% - 10px);
+	padding: 10px;
+	margin-bottom: 10px;
+	box-sizing: border-box;
+}
+.rli{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.c11,.c22,.c33,.c44,.c55,.c66,.c77,.c88,.c99,.c1010{
+	float: left;
+	width: 50%;
+	box-sizing: border-box;
+    padding: 0 50px;
+}
+.r1,.r2,.r3,.r4,.r5,.r6,.r7,.r8,.r9,.r10::after{
+	content:"";
+	clear: both;
+	display: table;
+}
+
+.link{
+	color: #E9E4DA;
+	
+}
+
+/*REFERENCES*/
+li{
+	margin-bottom: 20px;
+	font-size: 15px;
+}
+
+
+
