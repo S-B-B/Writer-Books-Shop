@@ -9,8 +9,8 @@ p{
 }
 
 @media (max-width: 768px) {
-  img {
-    width: 50%;
+  body {
+    font-size: 16px;
   }
 }
 
