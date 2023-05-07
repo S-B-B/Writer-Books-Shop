@@ -4,12 +4,18 @@ body{
 	color: #E9E4DA;
 }
 img {
-  width: 60%;
-  height: auto;
+  	width: 60%;
+  	height: auto;
 }
 p{
 	text-align: justify;
 	line-height: 2;
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
 }
 
 /*INDEX*/
