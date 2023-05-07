@@ -80,9 +80,9 @@ fieldset{
 			
 /*GALLERY*/
 .cli1,.cli2,.cli3,.cli4{
-	flex-basis: calc(10% - 10%);
-	padding: 50%;
-	margin-bottom: 50%;
+	flex-basis: calc(0% - 10%);
+	padding: 5%;
+	margin-bottom: 2%;
 	box-sizing: border-box;
 }
 .rli{
