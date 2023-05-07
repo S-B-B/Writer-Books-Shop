@@ -23,12 +23,6 @@ p{
   }
 }
 
-@media (max-width: 480px) {
-  p {
-    font-size: 12px;
-  }
-}
-
 /*INDEX*/
 .nav {
   overflow: hidden;
