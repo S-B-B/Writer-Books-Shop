@@ -8,8 +8,10 @@ p{
 	line-height: 2;
 }
 
-img[Attributes Style] {
-  aspect-ratio: auto 640 / 360;
+@media (max-width: 768px) {
+  img {
+    width: 50%;
+  }
 }
 
 /*INDEX*/
