@@ -1,17 +1,15 @@
 body{
 	font-family: Questrial;
-	font-size: 20px;
+	font-size: 130%;
 	color: #E9E4DA;
+}
+img {
+  width: 60%;
+  height: auto;
 }
 p{
 	text-align: justify;
 	line-height: 2;
-}
-
-@media (max-width: 768px) {
-  body {
-    font-size: 16px;
-  }
 }
 
 /*INDEX*/
@@ -43,7 +41,7 @@ p{
 /*REGISTRATION*/
 fieldset{
   float: center;
-  width: 300px;
+  width: 80%;
   margin: auto;
 }
 
@@ -76,9 +74,9 @@ fieldset{
 			
 /*GALLERY*/
 .cli1,.cli2,.cli3,.cli4{
-	flex-basis: calc(10% - 10px);
-	padding: 10px;
-	margin-bottom: 10px;
+	flex-basis: calc(10% - 10%);
+	padding: 50%;
+	margin-bottom: 50%;
 	box-sizing: border-box;
 }
 .rli{
@@ -106,9 +104,11 @@ fieldset{
 
 /*REFERENCES*/
 li{
-	margin-bottom: 20px;
-	font-size: 15px;
+	margin-bottom: 2%;
+	font-size: 80%;
 }
+
+
 
 
 
