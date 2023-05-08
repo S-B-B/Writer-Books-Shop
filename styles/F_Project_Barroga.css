@@ -77,6 +77,11 @@ fieldset{
 .show-message .image-container {
     justify-content: center;
 }
+
+#registrationForm {
+  width: 100%;
+  margin: 0 auto;
+}
 			
 /*GALLERY*/
 .cli1,.cli2,.cli3,.cli4{
@@ -113,8 +118,6 @@ li{
 	margin-bottom: 2%;
 	font-size: 80%;
 }
-
-
 
 
 
