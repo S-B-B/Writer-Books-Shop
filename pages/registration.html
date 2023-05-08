@@ -17,42 +17,44 @@
 	</center></div><br>
 	
 	<div style="display: flex; flex-direction: column; align-items: center;">
-		<img src="../src2/logo.jpg" height="300"/>	
-		<div style="display: flex; flex-wrap: wrap;">
-			<div style="flex: 1; padding: 10px;">
-				<div class="image-container">
-					<div id="message" style="display:none; text-align:center;">
-						<h1 class="thank" style="text-align: center;"><br><br>Thank You For Registering!</h1>
-					</div>
-				</div>
-			</div>
-			<div style="display: flex; flex-direction: column; flex: 1; padding: 10px;" id="leftImageContainer">
-				<img src="../src2/pers.gif" height="300" align="left"/>
-			</div>
-			<div style="display: flex; flex-direction: column; flex: 1; padding: 10px;">
-				<form id="registrationForm" onsubmit="submitForm(event)">
-					<fieldset>
-						<label for=fName>First Name:</label>
-						<input type=text id=fname>
-						<br><br>
-						<label for=lName>Last Name:</label>
-						<input type=text id=lname>
-						<br><br>
-						<label for=Email>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Email:</label>
-						<input type=email id=email placeholder="e.g. address@email.com" required>
-						<br><br>
-						<label for=password>&nbsp;&nbsp;Password:</label>
-						<input type=password id=password name=password minlength=8 placeholder="min 8 characters" required>
-						<br><br>
-						<center><input type=submit id=Submit value=Submit></center>				
-					</fieldset>	
-				</form>
-			</div>
-			<div style="display: flex; flex-direction: column; flex: 1; padding: 10px;" id="rightImageContainer">
-				<img src="../src2/pers.gif" height="300" align="right"/>
+	<div style="display: flex; justify-content: center; width: 100%;">
+		<img src="../src2/logo.jpg" height="30%" width="auto"/>	
+	</div>
+	<div style="display: flex; justify-content: center; width: 100%;">
+		<div style="display: flex; flex-direction: column; align-items: center; width: 33.33%; padding: 1%;">
+			<img src="../src2/pers.gif" height="60%" width="auto" style="margin: 0 auto;"/>
+		</div>
+		<div style="display: flex; flex-direction: column; align-items: center; width: 33.33%; padding: 1%;">
+			<form id="registrationForm" onsubmit="submitForm(event)" style="text-align: center;">
+				<fieldset>
+					<label for=fName>First Name:</label>
+					<input type=text id=fname>
+					<br><br>
+					<label for=lName>Last Name:</label>
+					<input type=text id=lname>
+					<br><br>
+					<label for=Email>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Email:</label>
+					<input type=email id=email placeholder="e.g. address@email.com" required>
+					<br><br>
+					<label for=password>&nbsp;&nbsp;Password:</label>
+					<input type=password id=password name=password minlength=8 placeholder="min 8 characters" required>
+					<br><br>
+					<input type=submit id=Submit value=Submit>				
+				</fieldset>	
+			</form>
+		</div>
+		<div style="display: flex; flex-direction: column; align-items: center; width: 33.33%; padding: 1%;">
+			<img src="../src2/pers.gif" height="60%" width="auto" style="margin: 0 auto;"/>
+		</div>
+	</div>
+	<div style="display: flex; flex-direction: column; align-items: center;">
+		<div class="image-container" style="display: none;">
+			<div id="message" style="text-align: center;">
+				<h1 class="thank"><br><br>Thank You For Registering!</h1>
 			</div>
 		</div>
 	</div>
+</div>
 	
 	<script>
 		function submitForm(event){
